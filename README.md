@@ -185,6 +185,9 @@ Confusion Matrix:
 
 The class-weighted model increased recall for churn customers, while reducing overall accuracy and precision. This demonstrates the trade-off involved when dealing with an imbalanced classification problem.
 
+<img width="795" height="600" alt="confusion_matrix" src="https://github.com/user-attachments/assets/94ca1d75-4d79-465c-a82c-5714eb3d0ac6" />
+
+
 ---
 
 ## Classification Threshold Analysis
@@ -206,6 +209,8 @@ Lowering the threshold identifies more potential churners, increasing recall but
 Increasing the threshold does the opposite, producing fewer positive predictions but missing more actual churners.
 
 This allows the classification threshold to be selected based on the business cost of false positives versus false negatives.
+
+<img width="995" height="622" alt="permutation_importance" src="https://github.com/user-attachments/assets/267f2cfd-d8fe-4c7c-8fac-3ffad85b8464" />
 
 ---
 
