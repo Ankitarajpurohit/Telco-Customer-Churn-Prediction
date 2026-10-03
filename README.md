@@ -50,6 +50,8 @@ The dataset contains numerical and categorical customer attributes such as:
 * Partner
 * Dependents
 * CLTV
+* Permutation importance
+* Model interpretability
 
 ---
 
@@ -269,13 +271,13 @@ Telco-Customer-Churn/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Ankitarajpurohit/Telco-Customer-Churn-Prediction.git
 ```
 
 ### 2. Navigate to the project directory
 
 ```bash
-cd Telco-Customer-Churn
+cd Telco-Customer-Churn-Prediction
 ```
 
 ### 3. Create a virtual environment
@@ -301,7 +303,7 @@ pip install -r requirements.txt
 ### 6. Run the project
 
 ```bash
-python project.py
+python telco_churn.py
 ```
 
 ---
